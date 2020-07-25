@@ -1,17 +1,752 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head>
-  <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
-</head>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Bincy-PortFolio</title>
+        <!--Using Freelancer theme as a starter-->
+        <!-- Font Awesome icons)-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet">
+        <!-- Fonts CSS-->
+        <link rel="stylesheet" href="css/heading.css">
+        <link rel="stylesheet" href="css/body.css">
+    </head>
+    <body id="page-top">
+        <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
+            <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">Learn.. Build.. Repeat... To make an Impact</a>
+                <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-3"><a class="nav-link py-3 px-0 px-lg-2 rounded js-scroll-trigger" href="#about">ABOUT</a>
+                        </li>     
+                        <li class="nav-item mx-0 mx-lg-3"><a class="nav-link py-3 px-0 px-lg-2 rounded js-scroll-trigger" href="#portfolio">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-3"><a class="nav-link py-3 px-0 px-lg-2 rounded js-scroll-trigger" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5" src="assets/img/Linkedin_photo_edited_white.png" alt="">
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading mb-0">Bincy Narath</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="pre-wrap masthead-subheading font-weight-light mb-0">Data Scientist - Machine Learning Engineer - Change Maker </p>
+            </div>
+        </header>
+        
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <div class="text-center">
+                    <h2 class="page-section-heading text-secondary mb-0 d-inline-block">PORTFOLIO</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Items-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid img_resize" src="assets/img/portfolio/YouTube-Logo.jpg" alt="YouTube Trending Project"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid img_resize" src="assets/img/portfolio/RL_tic_tac_toe.jpeg" alt="RL agent playing Tic-Tac-Toe"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid img_resize" src="assets/img/portfolio/surfs-up.jpg" alt="data_base_app_flask"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid img_resize" src="assets/img/portfolio/stockmarket.jpg" alt="VBA"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid img_resize" src="assets/img/portfolio/reaction_tester.png" alt="Reaction_Tester"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid img_resize" src="assets/img/portfolio/covid_19.jpg" alt="Covid-19"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid img_resize" src="assets/img/portfolio/pandas_deepdive.jpg" alt="Pandas"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal7">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid img_resize" src="assets/img/portfolio/Laboratory.jpg" alt="Visualization"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal8">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid img_resize" src="assets/img/portfolio/equatorsign.png" alt="APIs"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal9">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid img_resize" src="assets/img/portfolio/kickstarter.png" alt="KickStarter"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal10">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid img_resize" src="assets/img/portfolio/database.png" alt="PostGres_DB_design"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal11">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid img_resize" src="assets/img/portfolio/data-munging.jpg" alt="Python-data-wrangling"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Portfolio Modal-->
+        <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal0Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Popularity prediction of YouTube Trending videos!</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/YouTube-Logo.jpg" alt="YouTube Trending Project"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">
+                                        After watching many trending videos in YouTube, we (Bincy, Sogra and Megan) asked ourselves, <span class="highlight">what makes the videos popular !!! and what if we could predict the popularity !!!</span>
+                                        Afterall, we want <span class="highlight">to help the struggling youtuber/influencer community by providing them the valuable insights on trending.</span>
+                                        At the same time, <span class="highlight">predicting popularity would help the advertising firms to identify the best videos to invest upon.</span>
+                                        Above all, <span class="highlight">we want to know, if there are any interesting insights underlying the trending patterns ?</span>
+                                        This project is all about our journey towards finding these answers. Stay tuned !!!
+                                    </p>
+                                    <button class="btn btn-warning" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                    <a class="btn btn-primary" href="https://github.com/bnarath/collaboration-project1" role="button"><i class="fas fa-arrow-alt-circle-right"></i> Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">RL agent playing Tic-Tac-Toe</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/RL_tic_tac_toe.jpeg" alt="RL agent playing Tic-Tac-Toe"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Reinforcement learning (RL) is one of three basic machine learning paradigms, alongside supervised learning and unsupervised learning. An RL agent (algorithm) constantly interacts with the environment and takes action based on maximizing long term rewards (value). It is just like how humans efficiently learn from experience. Here, we build an RL agent who learn to play Tic-Tac-Toe game playing with an opponent. Excited !!! I am..</p>
+                                    <button class="btn btn-warning" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                    <a class="btn btn-primary" href="https://github.com/bnarath/Tic-Tac-Toe" role="button"><i class="fas fa-arrow-alt-circle-right"></i> Check this out!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Develop an API service using Flask & SQL Alchemy!</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/surfs-up.jpg" alt="data_base_app_flask"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Imagine, You've decided to treat yourself with a long holiday vacation in Honolulu, Hawaii! To help with your trip planning, you need to do some climate analysis on the area. Aʻohe hopohopo, <span class="highlight">I have developed an API service for you.</span> The application is built using <span class="highlight">flask</span> and <span class="highlight">sql Alchemy</span>. Check it out!!!</p>
+                                    <button class="btn btn-warning" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                    <a class="btn btn-success" href="https://ctd-hawaii-climate-app.herokuapp.com/" role="button"><i class="fas fa-arrow-alt-circle-right"></i> Application</a>
+                                    <a class="btn btn-primary" href="https://github.com/bnarath/sqlalchemy-challenge" role="button"><i class="fas fa-arrow-alt-circle-right"></i> Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal3Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">The VBA of Wall Street</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/stockmarket.jpg" alt="VBA"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Visual Basic for Applications (VBA) is a legacy tool but very powerful and still used by finance sector. In this project, we use VBA scripting to analyze real stock market data. Stay tuned!!</p>
+                                    <button class="btn btn-warning" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                    <a class="btn btn-primary" href="https://github.com/bnarath/The-VBA-of-Wall-Street" role="button"><i class="fas fa-arrow-alt-circle-right"></i> Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal4Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Reaction Tester (A JS powered web game)</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/reaction_tester.png" alt="Reaction_Tester"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Having the right and faster reaction is a factor to succeed in recent times, especially when you play <a href="https://kahoot.it/">KAHOOT</a>. Research shows that some games might help you get faster. HTML, CSS and JavaScript(JS) combinations can be effectively used to make browser based games. This game, powered by JS  helps you to improve the speed of your reaction. Check it out!!!</p>
+                                    <button class="btn btn-warning" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                    <a class="btn btn-success" href="https://bnarath.github.io/reaction_tester/" role="button"><i class="fas fa-arrow-alt-circle-right"></i> Play</a>
+                                    <a class="btn btn-primary" href="https://github.com/bnarath/reaction_tester" role="button"><i class="fas fa-arrow-alt-circle-right"></i> Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal5Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Imapact Illustration of Covid-19</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/covid_19.jpg" alt="Submarine"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">The year 2020 was unprecedented, just because of COVID-19. In the mid of January, it was just in Wuhan, China and the world was not prepared to deal with it. Looking back, today the epicentre has been moving from one to the other. 
+                                    In this project, we would see an illustration of COVID-19 impact; how the epicentre changed between mid of January Till end of May 2020. This project is a good use of <strong>plotly</strong>. 
+                                    Plotly is an open-source, interactive data visualization library for Python to make publication-quality graphs. </p>
+                                    <button class="btn btn-warning" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                    <a class="btn btn-success" href="https://bnarath.github.io/COVID_19_GUI/" role="button"><i class="fas fa-arrow-alt-circle-right"></i> Graphics</a>
+                                    <a class="btn btn-primary" href="https://github.com/bnarath/COVID_19_GUI/" role="button"><i class="fas fa-arrow-alt-circle-right"></i> Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal6Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Using Pandas to derive Insights on Purchase and Education Data</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/pandas_deepdive.jpg" alt="KickStarter"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">
+                                        The fantasy game <span class="highlight">"Heroes of Pymoli"</span>is free-to-play, but players are encouraged to purchase optional items that enhance their playing experience. Our first project is to derive  meaningful insights from this game's purchase data.
+                                        In the second project <span class="highlight">"PyCity"</span>,  we need to help making strategic decisions regarding future school budgets and priorities. We have to analyze the district-wide standardized test results to derive strategies. This is a deep dive pandas project. Stay tuned !!
+                                    </p>
+                                    <button class="btn btn-warning" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                    <a class="btn btn-primary" href="https://github.com/bnarath/pandas-challenge" role="button"><i class="fas fa-arrow-alt-circle-right"></i> Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-<body>
+        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal7Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Validating the drug for a pharmaceutical!</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/Laboratory.jpg" alt="KickStarter"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">
+                                        We will analyze the data of a burgeoning <span class="highlight">pharmaceutical company</span> that specializes in anti-cancer pharmaceuticals. 
+                                        In its most recent efforts, it began screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer.
+                                        We have the complete data from their most recent animal study, in which 249 mice identified with SCC tumor growth were treated through a variety of drug regimens.
+                                        The purpose of this study is <span class="highlight">to compare the performance of Pymaceuticals' drug of interest, Capomulin, versus the other treatment regimens.</span>
+                                        Here, we use <span class="highlight">advanced aggregation and visualization techniques</span> to generate tables and figures needed for the technical report of the study, also <span class="highlight">a top-level summary of the study results</span>. Stay tuned !!
+                                    </p>
+                                    <button class="btn btn-warning" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                    <a class="btn btn-primary" href="https://github.com/bnarath/matplotlib-challenge" role="button"><i class="fas fa-arrow-alt-circle-right"></i> Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-  <h1>Hello Everyone</h1>
-  <img src="photo_Bincy.jpg" alt="photo">
+        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal8Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">What's the Weather Like?</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/equatorsign.png" alt="KickStarter"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">
+                                        Whether financial, political, or social -- <span class="highlight">data's true power lies in its ability to answer questions definitively.</span> 
+                                        In this project, we try to answer a fundamental question: <span class="highlight">"What's the weather like as we approach the equator?"</span> 
+                                        After that you get recommendations on worldwide hotels based on your weather preference. We use various APIs from retrieving data to mapping data. Stay tuned !!
+                                    </p>
+                                    <button class="btn btn-warning" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                    <a class="btn btn-primary" href="https://github.com/bnarath/python-api-challenge" role="button"><i class="fas fa-arrow-alt-circle-right"></i> Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-  <p>My real portfolio is <a href="https://bnarath.github.io/portfolio/">here</a></p>
-  
-</body>
+        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal9Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">How to succeed in Kickstarter?</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/kickstarter.png" alt="KickStarter"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">
+                                        Kickstarter is a crowd funding platform for creative projects.Though, over 2B is raised in Kickstarter, <span class="highlight">only a third of campaigns are successful in raising the required funds</span>. Here, we find out why, using just excel and of course statistics. Stay tuned till the end!! You are gona get some insights!!
+                                    </p>
+                                    <button class="btn btn-warning" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                    <a class="btn btn-primary" href="https://github.com/bnarath/Excel-Kickstarter-Project" role="button"><i class="fas fa-arrow-alt-circle-right"></i> Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal10Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Database Design & Implementation</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/database.png" alt="PostGres_DB_design"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">
+                                        In this project, we will design and implement a DB with employee data. Don't worry about confidentiality, in the end, we will see that the data is fake!! This project covers <span class="highlight">ERD diagram, database & table creation, data insertion, analysis, connecting to DB through Python and so on.</span> We use <span class="highlight">PostgreSQL</span> which is a free, enterprise-class relational Data Base Management System, and <span class="highlight">sqlalchemy toolkit</span> to connect with the DB through python. Stay tuned till the end!! You are gonna get thrilled !!
+                                    </p>
+                                    <button class="btn btn-warning" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                    <a class="btn btn-primary" href="https://github.com/bnarath/sql-challenge" role="button"><i class="fas fa-arrow-alt-circle-right"></i> Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal11Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Data Munging</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/data-munging.jpg" alt="Python-data-wrangling"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Python is widely used in Data Science, mainly because of the wide variety packages and the support around. Data wrangling (munging) is the process of transforming raw data to the required format. It is not only a skill now but a necessity too for a data scientist. Here, we do data munging using basic modules of python <span class="highlight"> (no pandas used!) </span>and derive the summary data for a bank, a poll, a boss and a linguist. Stay tuned !!</p>
+                                    <button class="btn btn-warning" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                    <a class="btn btn-primary" href="https://github.com/bnarath/python-challenge" role="button"><i class="fas fa-arrow-alt-circle-right"></i> Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About Me Section-->
+        <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <div class="text-center">
+                    <h2 class="page-section-heading d-inline-block text-white">Hello World!!</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-4 ml-auto">
+                        <p class="pre-wrap lead">Hi, I am Bincy !!!
+I am a Data Scientist, passionate about solving the real world problems. I believe in the huge potential of  Machine Learning-DeepLearning-AI and <span class='highlight'>want to build meaningful products that MAKE an IMPACT.</span>
+Though the power of machine learning is domain independant, knowing various domains and technologies would help to reach our end goal faster! <span class='highlight'>I am experienced in developing machine learning solutions for finance, engineering, and customer service sectors.</span></p>
+                    </div>
+                    <div class="col-lg-4 mr-auto">
+                        <p class="pre-wrap lead">I have  <span class='highlight'>2+ years of machine learning and data science experience</span> coupled with <span class='highlight'>4 years of engineering domain expertise in Telecom, Networking, Cloud and Virtualisation  Technologies.</span> The prior experience helped me with strong engineering, programming and design thinking skills to get an end-to-end solution to the problems. I believe that machine learning is a superpower, and if it is used wisely, along with the domain expertise, <span class='highlight'>we can derive meaningful insights and outstanding products.</span></p>
+                    </div>
+                </div>
+                <!--Resume Button-->
+                <div class="text-center">
+                    <a class="btn btn-light" href="assets/files/Bincy_Narath_Resume.pdf" role="button">Resume <i class="fas fa-hand-peace"></i></a>
+                </div>
+            </div>   
+        </section>
+        <!-- About Me Section-->
 
+        <!-- Experiences-->
+        <section class="page-section">
+            <div class="container">
+                <!-- Experience Section Heading-->
+                <div class="text-center">
+                    <h2 class="page-section-heading text-secondary d-inline-block mb-0">Experience</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Experience Section Content-->
+                <div class="row text-center">
+                    <div class="col-lg-6 mr-auto">
+                        <h3 class="text-secondary d-inline-block mb-0"><a href="https://www.cisco.com/">Cisco Systems Pvt Ltd, India</a></h3>
+                    </div>
+                    <div class="col-lg-6 mr-auto">
+                        <h3 class="text-secondary d-inline-block mb-0"><a href="https://www.cisco.com/">Cisco Systems Pvt Ltd, India</a></h3>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-lg-6 ml-auto">
+                        <h3 class="text-secondary d-inline-block mb-0">
+                            <h4>Data Scientist</h4>
+                            <h5>January 2019 - February 2020</h5>
+                        </h3>
+                    </div>
+                    <div class="col-lg-6 mr-auto">
+                        <h3 class="text-secondary d-inline-block mb-0">
+                            <h4>Consulting Engineer / Machine Learning Practitioner</h4>
+                            <h5>July 2013 - January 2019</h5>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Experiences-->
+
+        <!-- Education-->
+        <section class="page-section">
+            <div class="container">
+                <!-- Education Section Heading-->
+                <div class="text-center">
+                    <h2 class="page-section-heading text-secondary d-inline-block mb-0">Education</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Education Section Content-->
+                <div class="row text-center">
+                    <div class="col-lg-4 ml-auto">
+                        <h3 class="text-secondary d-inline-block mb-0"><a href="https://www.utoronto.ca/">University of Toronto, Ontario</a></h3>
+                    </div>
+                    <div class="col-lg-4 mr-auto">
+                        <h3 class="text-secondary d-inline-block mb-0"><a href="https://www.iitm.ac.in/">Indian Institute of Technology Madras, India</a></h3>
+                    </div>
+                    <div class="col-lg-4 mr-auto">
+                        <h3 class="text-secondary d-inline-block mb-0"><a href="https://www.gecwyd.ac.in/">GEC Wayanad - Kannur University, India</a></h3>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-lg-4 ml-auto">
+                        <h3 class="text-secondary d-inline-block mb-0">
+                            <h4>Data Science Bootcamp</h4>
+                            <h4>2020</h4>
+                        </h3>
+                    </div>
+                    <div class="col-lg-4 mr-auto">
+                        <h3 class="text-secondary d-inline-block mb-0">
+                            <h4>Masters of Science</h4>
+                            <h4>Communication Engineering</h4>
+                            <h4>Department of Electrical Engineering</h4>
+                            <h4>2010-2013</h4>
+                        </h3>
+                    </div>
+                    <div class="col-lg-4 mr-auto">
+                        <h3 class="text-secondary d-inline-block mb-0">
+                            <h4>Bachelor of Technology</h4>
+                            <h4>Department of Electronics and Communication Engineering</h4>
+                            <h4>2005-2009</h4>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Education-->
+
+        <!-- Cerifications-->
+        <section class="page-section">
+            <div class="container">
+                <!-- Cerifications-->
+                <div class="text-center">
+                    <h2 class="page-section-heading text-secondary d-inline-block mb-0">Certifications</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Cerifications Section Content-->
+                <div class="row text-center">
+                    <div class="col-lg-4 ml-auto">
+                        <h3 class="text-secondary d-inline-block mb-0">Deep Learning Specialization, May 2020</h3>
+                        <h4 class="text-secondary d-inline-block mb-0"><a href="https://www.coursera.org/">Coursera-Deeplearning.ai</a></h4>
+                    </div>
+                    <div class="col-lg-4 mr-auto">
+                        <h3 class="text-secondary d-inline-block mb-0">Reinforcement Learning Certification, Dec 2019</h3>
+                        <h4 class="text-secondary d-inline-block mb-0"><a href="https://www.iisc.ac.in/">IISC Bangalore</a></h4>
+                    </div>
+                    <div class="col-lg-4 mr-auto">
+                        <h3 class="text-secondary d-inline-block mb-0">Diploma in DataScience, Dec 2019</h3>
+                        <h4 class="text-secondary d-inline-block mb-0"><a href="https://www.iimb.ac.in/home">IIM Bangalore</a></h4>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-lg-4 ml-auto">
+                        <h3 class="text-secondary d-inline-block mb-0">
+                            <a href="assets/files/DeepLearning.png"><img class="img-fluid img-thumbnail img_resize_thumb" src="assets/files/DeepLearning.png" alt=""></a>
+                        </h3>
+                    </div>
+                    <div class="col-lg-4 mr-auto">
+                        <h3 class="text-secondary d-inline-block mb-0">
+                            <a href="assets/files/IISC_cert.jpg"><img class="img-fluid img-thumbnail img_resize_thumb" src="assets/files/IISC_cert.jpg" alt=""></a>
+                        </h3>
+                    </div>
+                    <div class="col-lg-4 mr-auto">
+                        <h3 class="text-secondary d-inline-block mb-0">
+                            <a href="assets/files/IIM_Bangalore.jpg"><img class="img-fluid img-thumbnail img_resize_thumb" src="assets/files/IIM_Bangalore.jpg" alt=""></a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Cerifications-->
+
+        <section class="page-section">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <div class="text-center">
+                    <h2 class="page-section-heading text-secondary d-inline-block mb-0">CONTACT</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Contact Section Content-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-4">
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="icon-contact mb-3"><i class="fas fa-mobile-alt"></i></div>
+                            <div class="text-muted">Phone</div>
+                            <div class="lead font-weight-bold">(416) 219-9850</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="icon-contact mb-3"><i class="far fa-envelope"></i></div>
+                            <div class="text-muted">Email</div><a class="lead font-weight-bold" href="mailto:bincynarath@gmail.com">bincynarath@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer text-center" id="contact">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-12 mb-5 mb-lg-0">
+                        <h4 class="mb-4">AROUND THE WEB</h4><a class="btn btn-outline-light btn-social mx-1" href="https://github.com/bnarath"><i class="fab fa-fw fa-github"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/bincybn"><i class="fab fa-fw fa-twitter"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/bincy-baburaj-narath-b4309375/"><i class="fab fa-fw fa-linkedin-in"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://bincynarath.wordpress.com/"><i class="fab fa-fw fa-wordpress"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright © bnarath.github.io</small></div>
+            <div class="container"><small>Powered by MIT licensed Bootstrap theme from Start Bootstrap</small></div>
+        </div>
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+        <div class="scroll-to-top d-lg-none position-fixed"><a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
