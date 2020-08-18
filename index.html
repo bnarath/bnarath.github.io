@@ -10,22 +10,29 @@
         <!-- Font Awesome icons)-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
         <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link href="css/styles.css" rel="stylesheet">
         <!-- Fonts CSS-->
         <link rel="stylesheet" href="css/heading.css">
         <link rel="stylesheet" href="css/body.css">
     </head>
     <body id="page-top">
-        <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
-            <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">Learn.. Build.. Repeat... To make an Impact</a>
+        <nav class="navbar navbar-expand-lg bg-secondary fixed-top ml-0" id="mainNav">
+            <div class="container ml-0"><a class="navbar-brand js-scroll-trigger" href="#page-top">Learn.. Build.. Repeat... To make an Impact</a>
                 <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item mx-0 mx-lg-3"><a class="nav-link py-3 px-0 px-lg-2 rounded js-scroll-trigger" href="#about">ABOUT</a>
+                        <li class="nav-item mx-0 mx-lg-3"><a class="nav-link py-3 px-0 px-lg-2 rounded js-scroll-trigger" href="#about">About</a>
                         </li>     
-                        <li class="nav-item mx-0 mx-lg-3"><a class="nav-link py-3 px-0 px-lg-2 rounded js-scroll-trigger" href="#portfolio">PORTFOLIO</a>
+                        <li class="nav-item mx-0 mx-lg-3"><a class="nav-link py-3 px-0 px-lg-2 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
                         </li>
-                        <li class="nav-item mx-0 mx-lg-3"><a class="nav-link py-3 px-0 px-lg-2 rounded js-scroll-trigger" href="#contact">CONTACT</a>
+                        <li class="nav-item mx-0 mx-lg-3"><a class="nav-link py-3 px-0 px-lg-2 rounded js-scroll-trigger" href="#experience">Experience</a>
+                        </li>     
+                        <li class="nav-item mx-0 mx-lg-3"><a class="nav-link py-3 px-0 px-lg-2 rounded js-scroll-trigger" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-3"><a class="nav-link py-3 px-0 px-lg-2 rounded js-scroll-trigger" href="#certifications">Certifications</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-3"><a class="nav-link py-3 px-0 px-lg-2 rounded js-scroll-trigger" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -46,7 +53,40 @@
                 <p class="pre-wrap masthead-subheading font-weight-light mb-0">Data Scientist - Machine Learning Engineer - Change Maker </p>
             </div>
         </header>
+
+        <!-- About Me Section-->
+        <section class="page-section text-primary mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <div class="text-center">
+                    <h2 class="page-section-heading d-inline-block text-primary">Hello World!!</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-4 ml-auto">
+                        <p class="pre-wrap lead">Hi, I am Bincy !!!
+I am a Data Scientist, passionate about solving the real world problems. I believe in the huge potential of  Machine Learning-DeepLearning-AI and <span class='highlight'>want to build meaningful products that MAKE an IMPACT.</span>
+Though the power of machine learning is domain independant, knowing various domains and technologies would help to reach our end goal faster! <span class='highlight'>I am experienced in developing machine learning solutions for finance, engineering, and customer service sectors.</span></p>
+                    </div>
+                    <div class="col-lg-4 mr-auto">
+                        <p class="pre-wrap lead">I have  <span class='highlight'>2+ years of machine learning and data science experience</span> coupled with <span class='highlight'>4 years of engineering domain expertise in Telecom, Networking, Cloud and Virtualisation  Technologies.</span> The prior experience helped me with strong engineering, programming and design thinking skills to get an end-to-end solution to the problems. I believe that machine learning is a superpower, and if it is used wisely, along with the domain expertise, <span class='highlight'>we can derive meaningful insights and outstanding products.</span></p>
+                    </div>
+                </div>
+                <!--Resume Button-->
+                <div class="text-center">
+                    <a class="btn btn-light" href="assets/files/Bincy_Narath_Resume.pdf" role="button">Resume <i class="fas fa-hand-peace"></i></a>
+                </div>
+            </div>   
+        </section>
+        <!-- About Me Section-->
         
+        <!-- Portfolio-->
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
                 <!-- Portfolio Section Heading-->
@@ -64,100 +104,197 @@
                     <!-- Portfolio Items-->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid img_resize" src="assets/img/portfolio/YouTube-Logo.jpg" alt="YouTube Trending Project"/>
+                            <div class="card">
+                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="card-img-top img-fluid img_resize" src="assets/img/portfolio/YouTube-Logo.jpg" alt="YouTube Trending Project"/>
+                                <div class="card-body text-center">
+                                    Popularity prediction of YouTube Trending videos
+                                </div>
+                            </div> 
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid img_resize" src="assets/img/portfolio/RL_tic_tac_toe.jpeg" alt="RL agent playing Tic-Tac-Toe"/>
+                            <div class="card">
+                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid img_resize" src="assets/img/portfolio/RL_tic_tac_toe.jpeg" alt="RL agent playing Tic-Tac-Toe"/>
+                                <div class="card-body text-center">
+                                    Reinforcement Learning agent playing Tic-Tac-Toe
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid img_resize" src="assets/img/portfolio/surfs-up.jpg" alt="data_base_app_flask"/>
+                            <div class="card">
+                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid img_resize" src="assets/img/portfolio/surfs-up.jpg" alt="data_base_app_flask"/>
+                                <div class="card-body text-center">
+                                    Hawaii Holiday API service using Flask & SQL Alchemy
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid img_resize" src="assets/img/portfolio/web-design.jpg" alt="web-design"/>
+                            <div class="card">
+                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid img_resize" src="assets/img/portfolio/web-design.jpg" alt="web-design"/>
+                                <div class="card-body text-center">
+                                    Dashboard showcasing the impact of latitude on various aspects of climate
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid img_resize" src="assets/img/portfolio/reaction_tester.png" alt="Reaction_Tester"/>
+                            <div class="card">
+                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid img_resize" src="assets/img/portfolio/rental_ETL.jpg" alt="rental_ETL"/>
+                                <div class="card-body text-center">
+                                    Extract - Transform - Load project on the rental data & provide API services
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid img_resize" src="assets/img/portfolio/covid_19.jpg" alt="Covid-19"/>
+                            <div class="card">
+                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid img_resize" src="assets/img/portfolio/covid_19.jpg" alt="Covid-19"/>
+                                <div class="card-body text-center">
+                                    Illustration of Covid-19 impact across countries over time using Plotly
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid img_resize" src="assets/img/portfolio/pandas_deepdive.jpg" alt="Pandas"/>
+                            <div class="card">
+                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid img_resize" src="assets/img/portfolio/pandas_deepdive.jpg" alt="Pandas"/>
+                                <div class="card-body text-center">
+                                    Using Pandas to derive Insights on Purchase and Education Data
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal7">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid img_resize" src="assets/img/portfolio/Laboratory.jpg" alt="Visualization"/>
+                            <div class="card">
+                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid img_resize" src="assets/img/portfolio/Laboratory.jpg" alt="Visualization"/>
+                                <div class="card-body text-center">
+                                    Using Analytics to validate a drug for a pharmaceutical
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal8">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid img_resize" src="assets/img/portfolio/equatorsign.png" alt="APIs"/>
+                            <div class="card">
+                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid img_resize" src="assets/img/portfolio/equatorsign.png" alt="APIs"/>
+                                <div class="card-body text-center">
+                                    What's the weather like as we approach the equator? Latitude Vs Weather
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal9">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid img_resize" src="assets/img/portfolio/kickstarter.png" alt="KickStarter"/>
+                            <div class="card">
+                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid img_resize" src="assets/img/portfolio/kickstarter.png" alt="KickStarter"/>
+                                <div class="card-body text-center">
+                                    How to succeed in Kickstarter - the popular crowdfunding platform?
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal10">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid img_resize" src="assets/img/portfolio/database.png" alt="PostGres_DB_design"/>
+                            <div class="card">
+                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid img_resize" src="assets/img/portfolio/database.png" alt="PostGres_DB_design"/>
+                                <div class="card-body text-center">
+                                    PostgreSQL Database Design - Implementation through Sqlalchemy
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal11">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid img_resize" src="assets/img/portfolio/data-munging.jpg" alt="Python-data-wrangling"/>
+                            <div class="card">
+                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid img_resize" src="assets/img/portfolio/data-munging.jpg" alt="Python-data-wrangling"/>
+                                <div class="card-body text-center">
+                                    Data wrangling (munging) using Python to transform the raw data
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal12">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid img_resize" src="assets/img/portfolio/stockmarket.jpg" alt="VBA"/>
+                            <div class="card">
+                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid img_resize" src="assets/img/portfolio/stockmarket.jpg" alt="VBA"/>
+                                <div class="card-body text-center">
+                                    VBA scripting to analyze real stock market data
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal13">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid img_resize" src="assets/img/portfolio/missionmars.jpg" alt="missionmars"/>
+                            <div class="card">
+                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid img_resize" src="assets/img/portfolio/missionmars.jpg" alt="missionmars"/>
+                                <div class="card-body text-center">
+                                    Web app using Flask connected to MongoDB cloud with Mars's info
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal14">
+                            <div class="card">
+                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid img_resize" src="assets/img/portfolio/reaction_tester.png" alt="Reaction_Tester"/>
+                                <div class="card-body text-center">
+                                    Reaction Tester - A JavaScript powered web game
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -294,19 +431,18 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">Reaction Tester (A JS powered web game)</h2>
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Toronto Rental ETL Project - Build a Database and API services connecting various sources</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/reaction_tester.png" alt="Reaction_Tester"/>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/rental_ETL.jpg" alt="rental_ETL"/>
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Having the right and faster reaction is a factor to succeed in recent times, especially when you play <a href="https://kahoot.it/">KAHOOT</a>. Research shows that some games might help you get faster. HTML, CSS and JavaScript(JS) combinations can be effectively used to make browser based games. This game, powered by JS  helps you to improve the speed of your reaction. Check it out!!!</p>
+                                    <p class="mb-5">While Toronto is a beautiful place to live, <span class="highlight">no one would claim it is easy to find a place to rent in Toronto.</span> To help current and potential Toronto residents better understand rental options available to them, we <span class="highlight">created a database containing the most recent rental listings as well other indicators</span> of what it might be like to live at each address. A <span class="highlight">PostgreSQL database</span> was designed and created containing the most recent rental listings scraped from <span class="highlight">Kijiji and Craigslist</span>, Crime data and Community Services data scraped from <span class="highlight">Toronto Police Services (TPS)</span> and Income data retrieved from <span class="highlight">Govt. of Canada website.</span> We have connected the whole data logically and deployed a <span class="highlight">Flask application</span> to provide the data dynamically to the users based on their inputs.  Check it out!!!</p>
                                     <button class="btn btn-warning" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
-                                    <a class="btn btn-success" href="https://bnarath.github.io/reaction_tester/" role="button"><i class="fas fa-arrow-alt-circle-right"></i> Play</a>
-                                    <a class="btn btn-primary" href="https://github.com/bnarath/reaction_tester" role="button"><i class="fas fa-arrow-alt-circle-right"></i> Know More</a>
+                                    <a class="btn btn-primary" href="https://github.com/bnarath/Toronto_Rental_ETL_Project" role="button"><i class="fas fa-arrow-alt-circle-right"></i> Know More</a>
                                 </div>
                             </div>
                         </div>
@@ -590,40 +726,38 @@
                 </div>
             </div>
         </div>
-        <!-- About Me Section-->
-        <section class="page-section bg-primary text-white mb-0" id="about">
-            <div class="container">
-                <!-- About Section Heading-->
-                <div class="text-center">
-                    <h2 class="page-section-heading d-inline-block text-white">Hello World!!</h2>
-                </div>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ml-auto">
-                        <p class="pre-wrap lead">Hi, I am Bincy !!!
-I am a Data Scientist, passionate about solving the real world problems. I believe in the huge potential of  Machine Learning-DeepLearning-AI and <span class='highlight'>want to build meaningful products that MAKE an IMPACT.</span>
-Though the power of machine learning is domain independant, knowing various domains and technologies would help to reach our end goal faster! <span class='highlight'>I am experienced in developing machine learning solutions for finance, engineering, and customer service sectors.</span></p>
+        <div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal14Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Reaction Tester (A JS powered web game)</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/reaction_tester.png" alt="Reaction_Tester"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Having the right and faster reaction is a factor to succeed in recent times, especially when you play <a href="https://kahoot.it/">KAHOOT</a>. <span class="highlight">Research shows that some games might help you get faster.</span> <span class="highlight">HTML, CSS and JavaScript(JS)</span> combinations can be effectively used to make browser based games. This game, powered by JS  helps you to improve the speed of your reaction. Check it out!!!</p>
+                                    <button class="btn btn-warning" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                    <a class="btn btn-success" href="https://bnarath.github.io/reaction_tester/" role="button"><i class="fas fa-arrow-alt-circle-right"></i> Play</a>
+                                    <a class="btn btn-primary" href="https://github.com/bnarath/reaction_tester" role="button"><i class="fas fa-arrow-alt-circle-right"></i> Know More</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-lg-4 mr-auto">
-                        <p class="pre-wrap lead">I have  <span class='highlight'>2+ years of machine learning and data science experience</span> coupled with <span class='highlight'>4 years of engineering domain expertise in Telecom, Networking, Cloud and Virtualisation  Technologies.</span> The prior experience helped me with strong engineering, programming and design thinking skills to get an end-to-end solution to the problems. I believe that machine learning is a superpower, and if it is used wisely, along with the domain expertise, <span class='highlight'>we can derive meaningful insights and outstanding products.</span></p>
-                    </div>
                 </div>
-                <!--Resume Button-->
-                <div class="text-center">
-                    <a class="btn btn-light" href="assets/files/Bincy_Narath_Resume.pdf" role="button">Resume <i class="fas fa-hand-peace"></i></a>
-                </div>
-            </div>   
-        </section>
-        <!-- About Me Section-->
+            </div>
+        </div>
 
         <!-- Experiences-->
-        <section class="page-section">
+        <section class="page-section" id="experience">
             <div class="container">
                 <!-- Experience Section Heading-->
                 <div class="text-center">
@@ -663,7 +797,7 @@ Though the power of machine learning is domain independant, knowing various doma
         <!--Experiences-->
 
         <!-- Education-->
-        <section class="page-section">
+        <section class="page-section" id="education">
             <div class="container">
                 <!-- Education Section Heading-->
                 <div class="text-center">
@@ -715,7 +849,7 @@ Though the power of machine learning is domain independant, knowing various doma
         <!--Education-->
 
         <!-- Cerifications-->
-        <section class="page-section">
+        <section class="page-section" id="certifications">
             <div class="container">
                 <!-- Cerifications-->
                 <div class="text-center">
