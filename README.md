@@ -1,2 +1,2 @@
 # Portfolio
-My Portfolio - with all the project details
+Portfolio - with all the project details
