@@ -22,3 +22,20 @@
 	height: 200px;
 	width:  280px;
  }
+
+ .scrollable-container {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.scrollable-container .row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.scrollable-container .card {
+    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+    margin-right: 1rem;
+}
