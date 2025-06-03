@@ -97,7 +97,7 @@
 
             <!--Resume Button-->
             <div class="text-center">
-                <a class="btn btn-light" href="assets/files/Bincy_Narath_Resume.pdf" role="button">Resume <i class="fas fa-hand-peace"></i></a>
+                <a class="btn btn-light" href="assets/files/bincy-narath.pdf" role="button">Resume <i class="fas fa-hand-peace"></i></a>
             </div>
         </div>   
     </section>
@@ -120,8 +120,12 @@
             <ul class="nav nav-tabs justify-content-center" id="portfolioTabs" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link active" id="advanced-projects-tab" data-toggle="tab" href="#advanced-projects"
-                        role="tab" aria-controls="advanced-projects" aria-selected="true">Advanced Projects - AI
+                        role="tab" aria-controls="advanced-projects" aria-selected="true">Research Projects - AI
                         Architecture & Algorithms</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="applied-llm-projects-tab" data-toggle="tab" href="#applied-llm-projects"
+                        role="tab" aria-controls="applied-llm-projects" aria-selected="true">Applied LLM Projects</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" id="ml-projects-tab" data-toggle="tab" href="#ml-projects" role="tab"
@@ -171,6 +175,30 @@
                                     <div class="card-body text-center">
                                         Neural Machine Translation: English → Indic Languages with Transformers & BPE
                                         (Built from Scratch)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Applied LLM Projects -->
+                <div class="tab-pane fade" id="applied-llm-projects" role="tabpanel"
+                    aria-labelledby="applied-llm-projects-tab">
+                    <div class="row justify-content-center">
+                        <!-- Add your Applied LLM projects here -->
+                        <div class="col-md-6 col-lg-4 mb-5">
+                            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal21">
+                                <div class="card">
+                                    <div
+                                        class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                        <div class="portfolio-item-caption-content text-center text-white"><i
+                                                class="fas fa-plus fa-3x"></i></div>
+                                    </div>
+                                    <img class="card-img-top img-fluid img_resize"
+                                        src="assets/img/portfolio/llm_gateway.png"
+                                        alt="LLM Gateway" />
+                                    <div class="card-body text-center">
+                                        LLM Gateway: Fast API entry point for LLM queries that delivers best LLM response for you.
                                     </div>
                                 </div>
                             </div>
@@ -1473,6 +1501,46 @@
                                         class="fas fa-times fa-fw"></i>Close Window</button>
                                 <a class="btn btn-primary"
                                     href="https://github.com/bnarath/translator-using-transformer-from-scratch"
+                                    role="button"><i class="fas fa-arrow-alt-circle-right"></i> Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal21" tabindex="-1" role="dialog"
+        aria-labelledby="#portfolioModal21Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                            class="fas fa-times"></i></span></button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary mb-0">LLM Gateway: Fast API entry point for LLM queries that delivers best LLM response for you.</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5"
+                                    src="assets/img/portfolio/llm_gateway.png"
+                                    alt="LLM Gateway" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">
+                                    Faced with the constant influx of new <span class="highlight">large language models</span> and the confusion about which to choose, I developed a <span class="highlight">FastAPI-based backend</span> that acts as a <span class="highlight">gateway routing queries to multiple LLMs</span>.
+                                    Instead of relying on just one model, the system <span class="highlight">evaluates responses from several LLMs</span> and dynamically <span class="highlight">returns the best answer</span> to the user, simplifying decision-making.
+                                    Designed for <span class="highlight">speed and scalability</span>, this backend efficiently manages concurrent queries and provides a reliable <span class="highlight">entry point for LLM-powered applications</span>.
+                                    This project enhanced my expertise in <span class="highlight">API development</span>, <span class="highlight">async programming</span>, and <span class="highlight">response evaluation based of LLM as a judge</span>.
+                                </p>
+                                <button class="btn btn-warning" href="#" data-dismiss="modal"><i
+                                        class="fas fa-times fa-fw"></i>Close Window</button>
+                                <a class="btn btn-primary"
+                                    href="https://github.com/bnarath/LLM_GATEWAY"
                                     role="button"><i class="fas fa-arrow-alt-circle-right"></i> Know More</a>
                             </div>
                         </div>
